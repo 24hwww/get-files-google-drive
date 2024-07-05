@@ -10,7 +10,7 @@ header("Cache-Control: post-check=0, pre-check=0", false);
 header("Pragma: no-cache");
 header("Connection: close");
 /** Google Drive GET PUBLIC FOLDER **/
-$folderId = '1rlZpUp32kguWwD12beThDlHY6urS-XAE';
+$folderId = '[INSERT ID FOLDER GOOGLE DRIVE]';
 $url = "https://drive.google.com/drive/folders/{$folderId}";
 
 $output = [];
